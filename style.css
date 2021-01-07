@@ -1,0 +1,25 @@
+
+.foto-home {
+    width: 150px;
+    border-radius: 75px;
+    border: solid #FFF 2px;
+    margin-bottom: 20px;
+}
+.img-projeto-1 {
+    width: 100%;
+}
+.img-projeto-2 {
+    width: 100%;
+}
+.img-projeto-3 {
+    width: 100%;
+}
+.img-projeto_1, .img-projeto_2, .img-projeto_3 {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.fa-linkedin{
+    color: white;
+    
+}
