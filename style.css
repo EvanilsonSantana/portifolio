@@ -1,15 +1,17 @@
-
 .foto-home {
     width: 150px;
     border-radius: 75px;
     border: solid #FFF 2px;
     margin-bottom: 20px;
 }
+
 .img-projeto-1 {
-    width: 100%;
+    width: 350px;
+    height: 200px;
 }
 .img-projeto-2 {
-    width: 100%;
+    width: 350px;
+    height: 200px;
 }
 .img-projeto-3 {
     width: 100%;
