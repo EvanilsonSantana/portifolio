@@ -1,5 +1,5 @@
 .foto-home {
-    width: 150px;
+    width: 250px;
     border-radius: 75px;
     border: solid #FFF 2px;
     margin-bottom: 20px;
@@ -14,14 +14,37 @@
     height: 200px;
 }
 .img-projeto-3 {
-    width: 100%;
+    width: 350px;
+    height: 200px;
 }
-.img-projeto_1, .img-projeto_2, .img-projeto_3 {
+.img-projeto-4 {
+    width: 350px;
+    height: 200px;
+}
+
+.img-projeto-5 {
+    width: 350px;
+    height: 200px;
+}
+
+.img-projeto-6 {
+    width: 350px;
+    height: 200px;
+}
+.img-projeto_1, .img-projeto_2, .img-projeto_3, .img-projeto-4, .img-projeto-5, .img-projeto-6{
     margin-bottom: 20px;
     width: 100%;
 }
 
 .fa-linkedin{
     color: white;
-    
+}
+
+.truculenta {
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 125;
 }
