@@ -17,21 +17,8 @@
     width: 350px;
     height: 200px;
 }
-.img-projeto-4 {
-    width: 350px;
-    height: 200px;
-}
 
-.img-projeto-5 {
-    width: 350px;
-    height: 200px;
-}
-
-.img-projeto-6 {
-    width: 350px;
-    height: 200px;
-}
-.img-projeto_1, .img-projeto_2, .img-projeto_3, .img-projeto-4, .img-projeto-5, .img-projeto-6{
+.img-projeto_1, .img-projeto_2, .img-projeto_3{
     margin-bottom: 20px;
     width: 100%;
 }
