@@ -35,17 +35,160 @@
         <div class="container">
             <h2 class="text-uppercase text-center text-white truculenta">Artigos</h2>
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <!-- Inserir aqui o conteúdo dos artigos -->
-                    <!-- Exemplo de artigo -->
-                    <div class="blog-post">
-                        <h3>Título do Artigo</h3>
-                        <p>Conteúdo do artigo...</p>
+                <div class="col-lg-12">
+                    <!-- Primeira linha -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <!-- Artigo 1 -->
+                            <div class="blog-post">
+                                <h3>Segurança em aplicações web</h3>
+                                <p>No início da internet, a World Wide Web constituía-se de um conjunto de páginas estáticas, nas quais o fluxo de informação se dava em um sentido unidirecional...</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalArtigo1">
+                                    Ler Mais
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Artigo 2 -->
+                            <div class="blog-post">
+                                <h3>Impacto das vulnerabilidades em aplicações web</h3>
+                                <p>Dentre as diversas vulnerabilidades identificadas em aplicações web, destaca-se a prevalência das causadas por entradas não verificadas...</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalArtigo2">
+                                    Ler Mais
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Artigo 3 -->
+                            <div class="blog-post">
+                                <h3>Análise estática de código </h3>
+                                <p>A análise estática de código é uma técnica fundamental no processo de desenvolvimento de software, que visa identificar potenciais problemas e vulnerabilidades no código-fonte sem a necessidade de executá-lo....</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalArtigo3">
+                                    Ler Mais
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Segunda linha -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <!-- Artigo 4 -->
+                            <div class="blog-post">
+                                <h3>Goat Apps</h3>
+                                <p>Resumo do artigo 4...</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalArtigo4">
+                                    Ler Mais
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Artigo 5 -->
+                            <div class="blog-post">
+                                <h3>Métricas de Avaliação</h3>
+                                <p>Resumo do artigo 5...</p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalArtigo5">
+                                    Ler Mais
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Mais colunas podem ser adicionadas aqui -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- Modal para o Artigo 1  -->
+    <div class="modal fade" id="modalArtigo1" tabindex="-1" role="dialog" aria-labelledby="modalLabelArtigo1" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtigo1">Título do Artigo 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: justify;">
+                    No início da internet, a World Wide Web constituía-se de um conjunto de páginas estáticas, nas quais o fluxo de informação se dava em um sentido unidirecional: partindo dos servidores web em direção aos navegadores dos usuários. Dentro desse cenário inicial, as vulnerabilidades estavam predominantemente localizadas nos softwares servidor, dado que a grande maioria dos sites funcionava sem a implementação de sistemas avançados de autenticação de usuários. 
+                    Essa condição resultava em uma presença reduzida de informações pessoais sensíveis nas plataformas online, conforme elucidado por (STUTTARD; PINTO, 2011).
+                    Atualmente, as aplicações web transformaram-se em plataformas extremamente dinâmicas e funcionais, sustentadas por uma comunicação bidirecional entre o navegador e o servidor. Tais aplicações oferecem um vasto leque de serviços indispensáveis aos usuários, abrangendo sistemas sofisticados de autenticação e cadastro, execução de transações financeiras, facilitação de compras online e disponibilização de acesso a serviços de streaming, conforme destacado por (STUTTARD; PINTO, 2011). 
+                    Com o progresso incessante da internet, emergiram novas categorias de desafios de segurança. Embora certas ameaças preexistentes tenham sido mitigadas, surgiram modalidades inéditas de ataques, para os quais os sistemas encontram-se despreparados. Apesar das melhorias observadas em diversos aspectos, persistem ataques severos capazes de expor informações confidenciais ou incapacitar serviços online. Tais problemas revestem-se de gravidade especialmente para entidades e serviços altamente dependentes da internet, tais como plataformas bancárias online, ambientes de jogos virtuais e portais de e-commerce. 
+                    Incidências envolvendo a indisponibilidade de websites ou o furto de dados sensíveis permanecem recorrentes. 
+                    O ambiente virtual constitui-se como um campo de batalha incessante entre os defensores da privacidade e segurança das informações e os agentes mal-intencionados que buscam penetrar e infligir prejuízos. A despeito de certos avanços, a segurança na internet continua a representar um desafio colossal, sem previsão de atenuação no horizonte próximo, conforme apontado por (STUTTARD; PINTO, 2011).
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para o Artigo 2  -->
+    <div class="modal fade" id="modalArtigo2" tabindex="-1" role="dialog" aria-labelledby="modalLabelArtigo2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtigo2">Título do Artigo 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Dentre as diversas vulnerabilidades identificadas em aplicações web, destaca-se a prevalência das causadas por entradas não verificadas, reconhecidas como as mais comuns (LIVSHITS et al., 2005). A exploração dessas entradas geralmente envolve dois objetivos principais; a inserção de dados maliciosos nas aplicações web, utilizando métodos como manipulação de URLs, manipulação de campos ocultos, modificação de cabeçalhos HTTP, e envenenamento por cookies; e a manipulação das aplicações por meio desses dados maliciosos, incluindo práticas como injeção de SQL, cross-site scripting (LIVSHITS et al., 2005).
+                    Apesar das aparentes distinções entre esses tipos de ataques, todos compartilham uma questão subjacente comum; a ausência de validação adequada de entradas. Essa ausência de validação adequada levou à criação de repositórios online que catalogam todas essas vulnerabilidades, armazenando, mantendo e compartilhando dados sobre falhas em sistemas computacionais (Sanchez et al, 2019). Presentemente, o principal repositório com ampla informação sobre vulnerabilidades é o Banco de Dados Nacional de Vulnerabilidades, National Vulnerability Database (NVD) do governo dos Estados Unidos (NATIONAL VULNERABILITY DATABASE, 2023). É gerenciado pelo Instituto Nacional de Padrões e Tecnologia (NIST).
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para o Artigo 3 -->
+    <div class="modal fade" id="modalArtigo3" tabindex="-1" role="dialog" aria-labelledby="modalLabelArtigo3" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtigo3">Título do Artigo 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    A análise estática de código é uma técnica fundamental no processo de desenvolvimento de software, que visa identificar potenciais problemas e vulnerabilidades no código-fonte sem a necessidade de executá-lo. Ao contrário da análise dinâmica, que envolve a execução do programa, a análise estática examina o código-fonte em si, buscando por erros, padrões inadequados e possíveis vulnerabilidades de segurança. Essa análise é realizada por meio de ferramentas automatizadas que examinam o código em busca de violações de regras de codificação, más práticas e possíveis falhas de segurança, (Nachtigall; Do e Bodden, 2019). 
+                    Uma das principais vantagens da análise estática de código é sua capacidade de identificar problemas de forma precoce no ciclo de desenvolvimento, permitindo que sejam corrigidos antes mesmo da compilação ou execução do programa. Isso ajuda a reduzir custos e tempo de desenvolvimento, além de melhorar a qualidade e a segurança do software final. Além disso, ao integrar a análise estática ao processo de revisão de código, as equipes podem aprimorar a detecção de vulnerabilidades de segurança, aumentando a confiabilidade e a robustez do software entregue, (Nachtigall; Do e Bodden, 2019). 
+                    O processo de análise estática de código é útil não apenas para otimizar a operação do compilador, que era o propósito original, mas também para detectar defeitos e possíveis falhas. Assim, é possível criar ferramentas que ajudam os desenvolvedores a entender o comportamento do programa e identificar diversas deficiências do programa sem a necessidade de executá-lo. As ferramentas usadas para análise estática de código são programas que explicam o comportamento de outros programas (Nikolić, Stefanović, Dakić, Sladojević e Ristić, 2021).
+                    O ciclo padrão de revisão de código inclui quatro fases principais: 1) definição do objetivo; 2) lançamento de uma ferramenta para análise estática de código; 3) revisão do código-fonte, baseada nos resultados obtidos pela análise estática; e 4) reengenharia do código-fonte (Nikolić, Stefanović, Dakić, Sladojević e Ristić, 2021).
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para o Artigo 4 -->
+    <div class="modal fade" id="modalArtigo4" tabindex="-1" role="dialog" aria-labelledby="modalLabelArtigo4" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtigo4">Título do Artigo 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Conteúdo completo do artigo 4...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Artigo 5 -->
+    <div class="modal fade" id="modalArtigo5" tabindex="-1" role="dialog" aria-labelledby="modalLabelArtigo5" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabelArtigo5">Título do Artigo 5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Conteúdo completo do artigo 5...
+                </div>
+            </div>
+        </div>
+    </div>
+   
     <footer id="footer" style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: #333; color: white; text-align: center;">
         <div class="copyright py-4">
             <div class="container"><small>Copyright ©&nbsp; Evanilson Santana 2024</small></div>

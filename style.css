@@ -27,6 +27,10 @@
     color: white;
 }
 
+.blog-post button {
+    margin-top: 10px;
+}
+
 .truculenta {
   font-family: "Truculenta", sans-serif;
   font-optical-sizing: auto;
@@ -34,4 +38,49 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 125;
+}
+
+  /* Estilo para a seção de artigos */
+  #artigos {
+    background-color: #f8f9fa; /* Cor de fundo */
+    padding: 80px 0; /* Espaçamento interno */
+}
+
+.blog-section h2 {
+    font-size: 36px; /* Tamanho da fonte do título */
+    color: #343a40; /* Cor do texto */
+    margin-bottom: 50px; /* Espaçamento inferior */
+}
+
+.blog-post {
+    background-color: #ffffff; /* Cor de fundo dos artigos */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 30px; /* Espaçamento interno */
+    margin-bottom: 30px; /* Espaçamento inferior */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.blog-post h3 {
+    font-size: 24px; /* Tamanho da fonte do título do artigo */
+    color: #343a40; /* Cor do texto do título do artigo */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+.blog-post p {
+    font-size: 16px; /* Tamanho da fonte do texto */
+    color: #6c757d; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.blog-post button {
+    font-size: 16px; /* Tamanho da fonte do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno */
+}
+
+.blog-post button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
 }
