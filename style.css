@@ -58,6 +58,7 @@
     padding: 30px; /* Espaçamento interno */
     margin-bottom: 30px; /* Espaçamento inferior */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow-y: auto; /* Adiciona barra de rolagem quando necessário */
 }
 
 .blog-post h3 {
